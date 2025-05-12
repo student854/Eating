@@ -1,0 +1,60 @@
+body{
+	font-family: sans-serif;
+	background-color: darkgoldenrod;
+	color: black;
+	padding: 0 15%;
+}
+
+.king{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-gap: 5px;
+}
+h1{
+	text-align: center;
+}
+
+p{
+	text-align: center;
+}
+h2{
+	color: brown;
+	text-align: center;
+}
+
+h3{
+	text-align: center;
+	margin: 0;
+	margin-bottom: 15px;
+}
+
+button{
+	border: none;
+	border-radius: 30px;
+	width: 100%;
+	text-align: center;
+	padding: 8px;
+	box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.2)
+
+}
+
+.eat{
+	background-color: ghostwhite;
+	border-radius: 30px;
+	padding: 30px 0;
+	margin-bottom: 5px;
+	padding: 10px;
+}
+
+input{
+	width: 100%;
+	border-radius: 20px;
+	border: none;
+	border: solid 2px brown;
+	padding: 0;
+}
+
+.read{
+	margin: 30px auto;
+	width: 40%;
+}
